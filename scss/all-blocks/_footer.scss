@@ -1,0 +1,36 @@
+/* Footer */
+
+.footer .container {
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    margin-top: 184px;
+    margin-bottom: 150px;
+    padding: 30px 70px;
+    background-color: #2C343E;;
+}
+
+.footer .nav {
+    margin-left: 103px;
+}
+
+.footer .nav__link:active {
+    color: #FEFCF7;
+}
+
+.socials {
+    display: flex;
+    margin-left: auto;
+}
+
+.socials__item {
+    list-style-type: none;
+}
+
+.socials__item + .socials__item {
+    margin-left: 24px;
+}
+
+.socials__link {
+    text-decoration: none;
+}

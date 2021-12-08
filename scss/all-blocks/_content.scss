@@ -1,0 +1,35 @@
+.content .container {
+    margin-bottom: 164px;
+    padding: 134px 86px;
+    background-image: url(../images/Bitmap.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.content__heading {
+    width: 485px;
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    margin: 0;
+    margin-bottom: 32px;
+    padding: 0;
+    color: #FEFCF7;
+}
+
+.content__paragraph {
+    width: 445px;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 56px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}

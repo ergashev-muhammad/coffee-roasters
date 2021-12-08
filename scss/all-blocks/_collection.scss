@@ -1,0 +1,67 @@
+.collection .container {
+    max-width: 1151px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 188px; 
+    background-image: url(../images/Group13.png);
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.collection__table {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .collection__table {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.collection__list {
+    text-align: center;
+    margin-top: 126px;
+}
+
+.collection__image {
+    margin: 0;
+    margin-bottom: 72px;
+}
+
+.collection__heading {
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    margin: 0;
+    margin-bottom: 24px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333D4B;
+}
+
+.collection__paragraph {
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    width: 255px;
+    margin: 0;
+    text-align: center;
+    color: #333D4B;
+    
+}
